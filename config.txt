@@ -1,0 +1,20 @@
+# The width of maze
+WIDTH=20
+
+# The height of maze
+HEIGHT=15
+
+# Entry point of the path
+ENTRY=0,5
+
+# End point of path
+EXIT=14,14
+
+# Name of output file to represent the hex maze
+OUTPUT_FILE=maze.txt
+
+# Toggle perfect maze with one path
+PERFECT=True
+
+# A Starting based for randomization
+SEED=42

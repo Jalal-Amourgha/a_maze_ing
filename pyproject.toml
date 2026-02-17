@@ -1,0 +1,16 @@
+[project]
+name = "mazegen"
+version = "0.0.1"
+description = "Package for generating a cool maze"
+authors = [
+    {name = "Ayoub Arid",email = "aarid@student.1337.ma"},
+	{name = "Jalal Amourgha", email = "jamourgh@student.1337.ma"}
+]
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = ["pillow", "wheel", "build", "mypy", "flake8"]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
